@@ -18,6 +18,7 @@ namespace EntityFramework_Slider.Controllers
         private readonly IProductService _productService;
         private readonly ICategoryService _categoryService;
         private readonly IExpertService _expertService;
+        private readonly IBlogService _blogService;
 
 
 
@@ -25,13 +26,15 @@ namespace EntityFramework_Slider.Controllers
                               IBasketService basketService,
                               IProductService productService,
                               ICategoryService categoryService,
-                              IExpertService expertService)
+                              IExpertService expertService,
+                              IBlogService blogService)
         {
             _context = context;
             _basketService = basketService;
             _productService = productService;
             _categoryService = categoryService;
             _expertService = expertService;
+            _blogService = blogService;
         }
 
 
@@ -49,6 +52,8 @@ namespace EntityFramework_Slider.Controllers
           
             IEnumerable<ExpertHeader> expertHeaders = await _expertService.GetAll();
 
+            IEnumerable<Blog> blogs = await _blogService.GetAll();
+
 
 
 
@@ -58,7 +63,9 @@ namespace EntityFramework_Slider.Controllers
                 SliderInfo = sliderInfo,           
                 Categories = categories,
                 Products = products,
-                ExpertHeaders = expertHeaders
+                ExpertHeaders = expertHeaders,
+                Blogs = blogs   
+
             };
 
             return View(model);

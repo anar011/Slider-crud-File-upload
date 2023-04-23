@@ -521,6 +521,18 @@
       "PackagePath": "staticwebassets\\css\\style.css.map"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\BackEnd\\clone7\\Basket-Ajax\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\043d458b-78fd-483c-bbd9-09780cace5a3_new-york.webp",
+      "PackagePath": "staticwebassets\\img\\043d458b-78fd-483c-bbd9-09780cace5a3_new-york.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\BackEnd\\clone7\\Basket-Ajax\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\1fbf6925-2a43-4ff8-a212-98574a477ebb_favicon.png",
+      "PackagePath": "staticwebassets\\img\\1fbf6925-2a43-4ff8-a212-98574a477ebb_favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\BackEnd\\clone7\\Basket-Ajax\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\54d0b4cf-7da6-4fc1-b772-07dacc605f39_new-york.webp",
+      "PackagePath": "staticwebassets\\img\\54d0b4cf-7da6-4fc1-b772-07dacc605f39_new-york.webp"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\BackEnd\\clone7\\Basket-Ajax\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\blog-feature-img-1.jpg",
       "PackagePath": "staticwebassets\\img\\blog-feature-img-1.jpg"
     },

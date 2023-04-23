@@ -10,5 +10,8 @@ namespace EntityFramework_Slider.ViewModels
         public SliderInfo SliderInfo { get; set; }
 
         public IEnumerable<ExpertHeader> ExpertHeaders { get; set; }
+
+        public IEnumerable<Blog> Blogs { get; set; }
+
     }
 }

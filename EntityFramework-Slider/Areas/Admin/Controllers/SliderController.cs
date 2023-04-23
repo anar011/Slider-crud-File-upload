@@ -86,7 +86,7 @@ namespace EntityFramework_Slider.Areas.Admin.Controllers
                     await slider.Photo.CopyToAsync(stream);  // stream - bir axin(yayim,muhit)
                 }
 
-
+                //gelen sliderin image beraber etmek fileName-ye
                 slider.Image = fileName;
                 await _context.Sliders.AddAsync(slider);
                 await _context.SaveChangesAsync();

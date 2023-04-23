@@ -162,7 +162,12 @@ namespace EntityFramework_Slider.Areas.Admin.Controllers
             {
                 return RedirectToAction(nameof(Index));
             }
-        
+
+
+            if (dbExpert.Description.Trim().ToLower() == expert.Description.Trim().ToLower())
+            {
+                return RedirectToAction(nameof(Index));
+            }
 
             _context.ExpertHeaders.Update(expert);
 
